@@ -70,25 +70,25 @@ We used transfer learning Method
 And used Resnet101 pretrained model
 
 ## Model Architecture
+We used transfer learning, and replace the **FC** layer of **RESNET101** with below layers
 
 | Parameters  | Description/Status |
 | ------------- | ------------- |
-| Freeze Status | Unfreeze  |
-| CNN layer  | NA  |
 | Linear layer  | 3 Layers  |
 | Dropout  | 0.4-0.5  |
-| Activation Function  | Mila <br> (https://github.com/digantamisra98/Mish) |
+| Activation Function  | [Mila](https://github.com/digantamisra98/Mish) |
 | Last Layer Activation Function  | LogSoftmax  |
 
 ## Hyper parameters
-
 | Parameters  | Description/Status |
 | ------------- | ------------- |
 | Batch Size | 32  |
-| Learning Rate  | 0.0001  |
-| Optimizer | Rectified Adam (RAdam)|
-| Loss Function  | Cross Entropy |
 | Epoch | 10 |
+| Freeze Status | Unfreeze  |
+| Learning Rate  | 0.0001  |
+| Optimizer | [Rectified Adam (RAdam)](https://github.com/LiyuanLucasLiu/RAdam)|
+| Loss Function  | Cross Entropy Loss |
+
 
 # Transformation
  FLOW DIAGRAM
