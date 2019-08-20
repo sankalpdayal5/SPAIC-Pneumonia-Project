@@ -8,9 +8,9 @@ This repository is created for SPAIC project showcase. Project titled "Detection
 
 | Name | Slack Name |
 | --- | ---|
-| Vaibhav Patel| @Vebby
-| Shudipto Trafder | @Shudipto Trafder
 | Sankalp Dayal | @Sankalp Dayal
+| Shudipto Trafder | @Shudipto Trafder
+| Vaibhav Patel| @Vebby
 
 
 # Abstract
